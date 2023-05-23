@@ -24,3 +24,55 @@ body {
   line-height: 1.4;
   color: var(--main-black);
 }
+
+/* NAVIGATION */
+.nav {
+  background-color: var(--main-black);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 5rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.nav-list li {
+  margin: 0 2rem;
+  list-style: none;
+}
+.nav-list a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+/* END NAVIGATION */
+
+/* WELCOME SECTION */
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-red);
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* END WELCOME SECTION */
+
+/* PROJECT SECTION */
+
+.project-section {
+  width: 100%;
+  height: 100vh;
+}
+#project-grid {
+  display: grid;
+}
+/* END PROJECT SECTION */
