@@ -1,0 +1,26 @@
+:root {
+  --main-red: #fd5252;
+  --main-black: #1f1a1a;
+  --main-gray: #d9d9d9;
+  --main-white: #ffffff;
+  --light-gray: #f1f1f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--main-black);
+}
