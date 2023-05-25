@@ -1,2 +1,2 @@
 # FCC
-Projects from the freCodeCamp curriculum
+Projects from the freCodeCamp Responsive Web Design certification.
